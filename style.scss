@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#0094C6, #001242);
+    h1{
+        font-size: 4vw;
+        color: white;  
+    }
+    p, span{
+        color: white;
+    }
+    div h2, p{
+        color: white;
+    }
+    div div{
+        color: white;
+    }
+    div{
+
+        color: white;
+    }
+}
+.degree-section{
+    display: flex;
+    flex-direction: row;
+    margin: 10vw;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
